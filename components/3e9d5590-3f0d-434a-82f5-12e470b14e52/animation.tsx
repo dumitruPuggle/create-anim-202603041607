@@ -92,7 +92,7 @@ const SampleCard: React.FC<{ text: string }> = ({ text }) => {
         width: 285,
         height: 175,
         borderRadius: 10,
-        background: "rgba(10,14,26,0.35)",
+        background: "rgba(34, 39, 55, 0.35)",
         border: "1px solid rgba(255,255,255,0.16)",
         boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.03)",
         padding: 22,
@@ -185,7 +185,7 @@ export const AgentSwarmBuildScreen: React.FC = () => {
             textShadow: "0 6px 28px rgba(0,0,0,0.45)",
           }}
         >
-          What should we build?
+          What's cooking, good looking?
         </div>
 
         {/* Input panel */}
